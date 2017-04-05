@@ -18,8 +18,8 @@ function countLetters(str){
   for (var i of distinctLetters){
     distinctLetterCount[i] = input.split(i).length - 1;
   }
-  console.log(distinctLetterCount);
+  return distinctLetterCount;
 }
 
 // countLetters("light house");
-// countLetters("lighthouse in the house");
+ console.log(countLetters("lighthouse in the house"));
